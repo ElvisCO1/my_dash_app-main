@@ -1,5 +1,5 @@
 dash==2.8.0
-dash-leaflet==0.2.1
+dash-leaflet==1.0.16
 geopandas==0.10.2
 pandas==1.5.3
 shapely==2.0.1

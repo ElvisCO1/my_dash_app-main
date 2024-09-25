@@ -2,4 +2,4 @@ gunicorn
 dash==2.18.1
 dash-leaflet==1.0.15
 geopandas==1.0.1
-shapely
+shapely==2.0.6

@@ -4,7 +4,7 @@ from dash import html  # Importar componentes HTML para Dash desde dash
 import geopandas as gpd
 
 # Leer archivo shapefile
-gdf = gpd.read_file('my_dash_app-main/FormatoShp/DEPARTAMENTOS_inei_geogpsperu_suyopomalia.shp')
+gdf = gpd.read_file('FormatoShp/DEPARTAMENTOS_inei_geogpsperu_suyopomalia.shp')
 
 # Reproyectar al sistema de coordenadas EPSG:4326 (WGS 84) si es necesario
 if gdf.crs != 'EPSG:4326':

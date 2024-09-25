@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Estilos para el contenedor principal */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;  /* Ancho máximo del contenedor */
+    display: flex;
+    flex-direction: column;  /* Colocar elementos en columna */
+    align-items: center;  /* Centrar horizontalmente */
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #4CAF50;  /* Color de fondo */
+    color: white;  /* Color del texto */
+    padding: 10px 0;  /* Espaciado */
+    border-radius: 5px;  /* Bordes redondeados */
+    width: 100%;  /* Ancho completo */
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;  /* Quitar viñetas */
+    padding: 0;  /* Sin padding */
+    display: flex;  /* Usar flexbox */
+    justify-content: center;  /* Centrar contenido */
+}
+
+nav ul li {
+    margin: 0 15px;  /* Espaciado entre elementos del menú */
+}
+
+nav ul li a {
+    color: white;  /* Color del texto */
+    text-decoration: none;  /* Sin subrayado */
+}
+
+/* Estilos para secciones */
+.section {
+    margin: 40px 0;  /* Espaciado entre secciones */
+    padding: 20px;
+    border: 1px solid #4CAF50;  /* Borde de las secciones */
+    border-radius: 5px;  /* Bordes redondeados de las secciones */
+    width: 80%;  /* Ancho de las secciones */
+}
+
+/* Estilos para el mapa */
+.map {
+    border: 2px solid #4CAF50;  /* Borde del mapa */
+    border-radius: 5px;  /* Bordes redondeados del mapa */
+}

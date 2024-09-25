@@ -1,6 +1,6 @@
 gunicorn
-dash==2.8.0
-dash-leaflet
+dash==2.18.1
+dash-leaflet==1.0.15
 geopandas==0.10.2
 pandas==1.5.3
 shapely==2.0.1
